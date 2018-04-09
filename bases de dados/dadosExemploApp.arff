@@ -1,0 +1,63 @@
+@RELATION iris
+
+@ATTRIBUTE  peca		{Parafuso,Polca,Rotor,'Engrenagem pequena','Engrenagem grande','Motor elétrico 60w','Bateria 12v 30A'}
+@ATTRIBUTE  estoque		NUMERIC
+@ATTRIBUTE  fornecedor	{A,B,C,D}
+@ATTRIBUTE  dias		NUMERIC
+@ATTRIBUTE  status	{Superlotado,Atrazado,Satisfatório}
+
+@DATA
+Parafuso,50,A,3,Superlotado
+Parafuso,3,A,5,Atrazado
+Polca,15,B,6,Satisfatório
+Parafuso,148,C,3,Superlotado
+Parafuso,102,C,15,Satisfatório
+Parafuso,39,C,13,Atrazado
+Parafuso,75,A,10,Satisfatório
+Rotor,146,B,3,Superlotado
+Rotor,44,B,4,Satisfatório
+Rotor,39,A,12,Atrazado
+Polca,4,B,3,Atrazado
+Polca,147,B,4,Superlotado
+Polca,31,C,14,Atrazado
+'Engrenagem pequena',115,A,11,Superlotado
+'Engrenagem pequena',81,A,8,Satisfatório
+'Engrenagem grande',82,A,13,Satisfatório
+'Engrenagem grande',2,B,14,Atrazado
+'Engrenagem pequena',111,B,11,Satisfatório
+'Motor elétrico 60w',84,D,6,Satisfatório
+'Motor elétrico 60w',6,A,2,Satisfatório
+'Bateria 12v 30A',0,D,13,Atrazado
+'Bateria 12v 30A',15,D,7,Satisfatório
+'Bateria 12v 30A',72,B,2,Superlotado
+'Engrenagem pequena',12,B,5,Atrazado
+'Engrenagem grande',63,A,7,Satisfatório
+Parafuso,52,A,15,Atrazado
+Parafuso,128,C,6,Superlotado
+Parafuso,98,A,4,Superlotado
+Parafuso,27,A,11,Atrazado
+Polca,135,B,5,Superlotado
+Parafuso,115,C,8,Superlotado
+Parafuso,104,C,10,Satisfatório
+Parafuso,19,C,8,Atrazado
+Parafuso,38,A,12,Atrazado
+Rotor,124,B,15,Satisfatório
+Rotor,137,B,6,Superlotado
+Rotor,29,A,2,Satisfatório
+Polca,66,B,13,Atrazado
+Polca,41,B,13,Atrazado
+Polca,38,C,9,Atrazado
+'Engrenagem pequena',30,A,6,Atrazado
+'Engrenagem pequena',89,A,7,Satisfatório
+'Engrenagem grande',40,A,6,Satisfatório
+'Engrenagem grande',131,B,11,Superlotado
+'Engrenagem pequena',134,B,6,Superlotado
+'Motor elétrico 60w',29,D,6,Satisfatório
+'Motor elétrico 60w',38,A,6,Satisfatório
+'Bateria 12v 30A',106,D,10,Superlotado
+'Bateria 12v 30A',11,D,14,Atrazado
+'Bateria 12v 30A',47,B,2,Superlotado
+'Engrenagem pequena',137,B,13,Satisfatório
+'Engrenagem grande',128,A,12,Satisfatório
+Parafuso,59,A,8,Satisfatório
+Parafuso,108,C,13,Superlotado
